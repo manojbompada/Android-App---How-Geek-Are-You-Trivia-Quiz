@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="example.com.howgeekyareyoutriviagame.QuizActivity"
+    android:id="@+id/rellayout">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quit"
+        android:id="@+id/quit"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:id="@+id/next"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/qno"
+        android:id="@+id/qno"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:minWidth="30dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/qimg"
+        android:minHeight="150dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@+id/qno"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/qtxt"
+        android:id="@+id/qtxt"
+        android:layout_below="@+id/qimg"
+        android:minHeight="100dp"
+        android:layout_alignEnd="@+id/next"
+        android:paddingBottom="20dp" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageProgressBar"
+        android:layout_alignTop="@+id/qimg"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/qimg" />
+
+</RelativeLayout>

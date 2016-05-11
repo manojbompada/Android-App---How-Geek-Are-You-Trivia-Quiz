@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HowGeekyAreYouTriviaGame</string>
+    <string name="startQuiz">Start Quiz</string>
+    <string name="howGeeky">How Geeky Are You?</string>
+    <string name="exit">Exit</string>
+    <string name="quit">Quit</string>
+    <string name="tryAgain">Try Again</string>
+    <string name="next">Next</string>
+    <string name="pgtxt">Loading Questions</string>
+    <string name="qno" />
+    <string name="qtxt" />
+    <string name="quizResults">Quiz Results</string>
+    <string name="quiz_results">Quiz Results:</string>
+</resources>
